@@ -80,7 +80,7 @@ func EscribirCvs(nombreArchivo string, alumnos []Alumno) error {
 	return nil
 }
 
-func main() {
+func problema() {
 	alumnos, err := LeerCvs("notas.csv")
 	if err != nil {
 		fmt.Println("Error al leer el Csv:", err)
